@@ -13,8 +13,8 @@ import (
 
 	errorspkg "github.com/pkg/errors"
 
-	"mpc/crypto/mta"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/crypto/mta"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 func (round *round2) Start() *tss.Error {

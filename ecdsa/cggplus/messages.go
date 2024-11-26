@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"strconv"
 
-	"mpc/common"
-	"mpc/crypto"
-	"mpc/crypto/zkproofs"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto"
+	"github.com/kisdex/mpc-lib/crypto/zkproofs"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 var (

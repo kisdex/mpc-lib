@@ -22,8 +22,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"mpc/common"
-	"mpc/crypto/zkproofs"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto/zkproofs"
 )
 
 func TestMulProof(t *testing.T) {

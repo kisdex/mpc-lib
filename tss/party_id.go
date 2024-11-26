@@ -11,7 +11,7 @@ import (
 	"math/big"
 	"sort"
 
-	"mpc/common"
+	"github.com/kisdex/mpc-lib/common"
 )
 
 type (

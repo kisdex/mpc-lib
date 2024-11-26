@@ -18,10 +18,10 @@ import (
 	"github.com/ipfs/go-log"
 	"github.com/stretchr/testify/assert"
 
-	"mpc/common"
-	"mpc/ecdsa/keygen"
-	"mpc/test"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/ecdsa/keygen"
+	"github.com/kisdex/mpc-lib/test"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 const (

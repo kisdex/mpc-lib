@@ -12,10 +12,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"mpc/common"
-	"mpc/crypto"
-	"mpc/crypto/paillier"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto"
+	"github.com/kisdex/mpc-lib/crypto/paillier"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 const (

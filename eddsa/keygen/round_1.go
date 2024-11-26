@@ -8,12 +8,12 @@ package keygen
 
 import (
 	"errors"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto"
+	cmts "github.com/kisdex/mpc-lib/crypto/commitments"
+	"github.com/kisdex/mpc-lib/crypto/vss"
+	"github.com/kisdex/mpc-lib/tss"
 	"math/big"
-	"mpc/common"
-	"mpc/crypto"
-	cmts "mpc/crypto/commitments"
-	"mpc/crypto/vss"
-	"mpc/tss"
 )
 
 var (

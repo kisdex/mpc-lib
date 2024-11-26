@@ -9,7 +9,7 @@ package signing
 import (
 	"errors"
 
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 func (round *round8) Start() *tss.Error {

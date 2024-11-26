@@ -10,12 +10,12 @@ import (
 	"crypto/elliptic"
 	"math/big"
 
-	"mpc/common"
-	"mpc/crypto"
-	cmt "mpc/crypto/commitments"
-	"mpc/crypto/mta"
-	"mpc/crypto/schnorr"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto"
+	cmt "github.com/kisdex/mpc-lib/crypto/commitments"
+	"github.com/kisdex/mpc-lib/crypto/mta"
+	"github.com/kisdex/mpc-lib/crypto/schnorr"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 // These messages were generated from Protocol Buffers definitions into ecdsa-signing.pb.go

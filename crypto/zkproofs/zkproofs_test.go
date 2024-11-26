@@ -26,10 +26,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"mpc/crypto/paillier"
-	"mpc/crypto/zkproofs"
-	"mpc/ecdsa/keygen"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/crypto/paillier"
+	"github.com/kisdex/mpc-lib/crypto/zkproofs"
+	"github.com/kisdex/mpc-lib/ecdsa/keygen"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 // Using a modulus length of 2048 is recommended in the GG18 spec

@@ -10,12 +10,12 @@ import (
 	"errors"
 	"math/big"
 
-	"mpc/common"
-	"mpc/crypto"
-	cmts "mpc/crypto/commitments"
-	"mpc/crypto/dlnproof"
-	"mpc/crypto/vss"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto"
+	cmts "github.com/kisdex/mpc-lib/crypto/commitments"
+	"github.com/kisdex/mpc-lib/crypto/dlnproof"
+	"github.com/kisdex/mpc-lib/crypto/vss"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 var (

@@ -9,8 +9,8 @@ package signing
 import (
 	"crypto/elliptic"
 	"fmt"
+	"github.com/kisdex/mpc-lib/common"
 	"math/big"
-	"mpc/common"
 )
 
 // PrepareForSigning(), Fig. 7

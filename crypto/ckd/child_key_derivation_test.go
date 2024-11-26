@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/btcsuite/btcd/btcec/v2"
-	. "mpc/crypto/ckd"
+	. "github.com/kisdex/mpc-lib/crypto/ckd"
 )
 
 func TestPublicDerivation(t *testing.T) {

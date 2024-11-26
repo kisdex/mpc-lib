@@ -12,8 +12,8 @@ import (
 
 	errors2 "github.com/pkg/errors"
 
-	"mpc/crypto/schnorr"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/crypto/schnorr"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 func (round *round6) Start() *tss.Error {

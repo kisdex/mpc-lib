@@ -10,8 +10,8 @@ import (
 	"errors"
 	"math/big"
 
-	"mpc/common"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 func (round *round5) Start() *tss.Error {

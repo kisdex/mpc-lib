@@ -11,7 +11,7 @@ import (
 	"runtime"
 	"testing"
 
-	"mpc/crypto/dlnproof"
+	"github.com/kisdex/mpc-lib/crypto/dlnproof"
 )
 
 func BenchmarkDlnProof_Verify(b *testing.B) {

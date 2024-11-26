@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"sync"
 
-	"mpc/common"
+	"github.com/kisdex/mpc-lib/common"
 )
 
 type Party interface {

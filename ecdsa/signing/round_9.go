@@ -9,8 +9,8 @@ package signing
 import (
 	"errors"
 
-	"mpc/crypto/commitments"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/crypto/commitments"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 func (round *round9) Start() *tss.Error {

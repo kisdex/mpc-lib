@@ -8,8 +8,8 @@ package signing
 
 import (
 	"crypto/elliptic"
+	"github.com/kisdex/mpc-lib/common"
 	"math/big"
-	"mpc/common"
 
 	"github.com/agl/ed25519/edwards25519"
 )

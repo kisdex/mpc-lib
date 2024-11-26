@@ -9,8 +9,8 @@ package signing
 import (
 	"errors"
 	"fmt"
+	"github.com/kisdex/mpc-lib/tss"
 	"math/big"
-	"mpc/tss"
 
 	"github.com/agl/ed25519/edwards25519"
 	"github.com/decred/dcrd/dcrec/edwards/v2"

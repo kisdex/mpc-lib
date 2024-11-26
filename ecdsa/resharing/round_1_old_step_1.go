@@ -11,12 +11,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"mpc/crypto"
-	"mpc/crypto/commitments"
-	"mpc/crypto/vss"
-	"mpc/ecdsa/keygen"
-	"mpc/ecdsa/signing"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/crypto"
+	"github.com/kisdex/mpc-lib/crypto/commitments"
+	"github.com/kisdex/mpc-lib/crypto/vss"
+	"github.com/kisdex/mpc-lib/ecdsa/keygen"
+	"github.com/kisdex/mpc-lib/ecdsa/signing"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 // round 1 represents round 1 of the keygen part of the GG18 ECDSA TSS spec (Gennaro, Goldfeder; 2018)

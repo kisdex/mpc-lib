@@ -1,4 +1,4 @@
-module mpc
+module github.com/kisdex/mpc-lib
 
 go 1.22.7
 

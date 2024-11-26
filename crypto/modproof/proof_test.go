@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
+	. "github.com/kisdex/mpc-lib/crypto/modproof"
+	"github.com/kisdex/mpc-lib/ecdsa/keygen"
 	"github.com/stretchr/testify/assert"
-	. "mpc/crypto/modproof"
-	"mpc/ecdsa/keygen"
 )
 
 var (

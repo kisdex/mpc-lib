@@ -8,9 +8,9 @@ package keygen
 
 import (
 	"errors"
+	"github.com/kisdex/mpc-lib/crypto/schnorr"
+	"github.com/kisdex/mpc-lib/tss"
 	"math/big"
-	"mpc/crypto/schnorr"
-	"mpc/tss"
 
 	errors2 "github.com/pkg/errors"
 )

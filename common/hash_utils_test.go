@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	"mpc/common"
+	"github.com/kisdex/mpc-lib/common"
 )
 
 func TestRejectionSample(t *testing.T) {

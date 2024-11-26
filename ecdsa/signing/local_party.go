@@ -11,12 +11,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"mpc/common"
-	"mpc/crypto"
-	cmt "mpc/crypto/commitments"
-	"mpc/crypto/mta"
-	"mpc/ecdsa/keygen"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto"
+	cmt "github.com/kisdex/mpc-lib/crypto/commitments"
+	"github.com/kisdex/mpc-lib/crypto/mta"
+	"github.com/kisdex/mpc-lib/ecdsa/keygen"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 // Implements Party

@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"strconv"
 
-	"mpc/common"
+	"github.com/kisdex/mpc-lib/common"
 )
 
 type Proof interface {

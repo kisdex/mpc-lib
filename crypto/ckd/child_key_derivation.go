@@ -16,9 +16,9 @@ import (
 
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btcutil/base58"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto"
 	"golang.org/x/crypto/ripemd160"
-	"mpc/common"
-	"mpc/crypto"
 )
 
 type ExtendedKey struct {

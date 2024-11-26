@@ -8,12 +8,12 @@ package signing
 
 import (
 	"crypto/elliptic"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto"
+	cmt "github.com/kisdex/mpc-lib/crypto/commitments"
+	"github.com/kisdex/mpc-lib/crypto/schnorr"
+	"github.com/kisdex/mpc-lib/tss"
 	"math/big"
-	"mpc/common"
-	"mpc/crypto"
-	cmt "mpc/crypto/commitments"
-	"mpc/crypto/schnorr"
-	"mpc/tss"
 )
 
 // These messages were generated from Protocol Buffers definitions into eddsa-signing.pb.go

@@ -9,7 +9,7 @@ package resharing
 import (
 	"errors"
 
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 func (round *round3) Start() *tss.Error {

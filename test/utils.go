@@ -7,7 +7,7 @@
 package test
 
 import (
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 func SharedPartyUpdater(party tss.Party, msg tss.Message, errCh chan<- *tss.Error) {

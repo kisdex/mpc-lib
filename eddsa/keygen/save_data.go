@@ -8,9 +8,9 @@ package keygen
 
 import (
 	"encoding/hex"
+	"github.com/kisdex/mpc-lib/crypto"
+	"github.com/kisdex/mpc-lib/tss"
 	"math/big"
-	"mpc/crypto"
-	"mpc/tss"
 )
 
 type (

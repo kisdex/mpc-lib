@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	. "mpc/crypto/commitments"
+	. "github.com/kisdex/mpc-lib/crypto/commitments"
 )
 
 func TestCreateVerify(t *testing.T) {

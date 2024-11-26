@@ -22,9 +22,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"mpc/common"
-	"mpc/crypto"
-	"mpc/crypto/zkproofs"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto"
+	"github.com/kisdex/mpc-lib/crypto/zkproofs"
 )
 
 func GenerateAffGData(t *testing.T) (*zkproofs.AffGWitness, *zkproofs.AffGStatement) {

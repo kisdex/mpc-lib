@@ -12,9 +12,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"mpc/common"
-	. "mpc/crypto/vss"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/common"
+	. "github.com/kisdex/mpc-lib/crypto/vss"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 func TestCheckIndexesDup(t *testing.T) {

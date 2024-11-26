@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"mpc/common"
-	"mpc/crypto"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto"
 )
 
 // PrepareForSigning(), GG18Spec (11) Fig. 14

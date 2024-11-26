@@ -7,8 +7,8 @@
 package resharing
 
 import (
-	"mpc/eddsa/keygen"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/eddsa/keygen"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 const (

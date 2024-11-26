@@ -9,8 +9,8 @@ package keygen
 import (
 	"math/big"
 
-	"mpc/common"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 const (

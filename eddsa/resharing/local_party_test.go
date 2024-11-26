@@ -7,19 +7,19 @@
 package resharing
 
 import (
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto"
+	"github.com/kisdex/mpc-lib/test"
+	"github.com/kisdex/mpc-lib/tss"
 	"math/big"
-	"mpc/common"
-	"mpc/crypto"
-	"mpc/test"
-	"mpc/tss"
 	"sync/atomic"
 	"testing"
 
 	"github.com/decred/dcrd/dcrec/edwards/v2"
 	"github.com/ipfs/go-log"
+	"github.com/kisdex/mpc-lib/eddsa/keygen"
+	"github.com/kisdex/mpc-lib/eddsa/signing"
 	"github.com/stretchr/testify/assert"
-	"mpc/eddsa/keygen"
-	"mpc/eddsa/signing"
 )
 
 const (

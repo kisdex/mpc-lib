@@ -10,7 +10,7 @@ import (
 	"errors"
 	"math/big"
 
-	"mpc/crypto/dlnproof"
+	"github.com/kisdex/mpc-lib/crypto/dlnproof"
 )
 
 type DlnProofVerifier struct {

@@ -16,8 +16,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"mpc/common"
-	"mpc/crypto"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto"
 )
 
 type (

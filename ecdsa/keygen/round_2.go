@@ -12,11 +12,11 @@ import (
 	"math/big"
 	"sync"
 
-	"mpc/crypto/facproof"
-	"mpc/crypto/modproof"
+	"github.com/kisdex/mpc-lib/crypto/facproof"
+	"github.com/kisdex/mpc-lib/crypto/modproof"
 
-	"mpc/common"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 const (

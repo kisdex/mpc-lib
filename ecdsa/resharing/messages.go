@@ -10,15 +10,15 @@ import (
 	"crypto/elliptic"
 	"math/big"
 
-	"mpc/common"
-	"mpc/crypto"
-	cmt "mpc/crypto/commitments"
-	"mpc/crypto/dlnproof"
-	"mpc/crypto/facproof"
-	"mpc/crypto/modproof"
-	"mpc/crypto/paillier"
-	"mpc/crypto/vss"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto"
+	cmt "github.com/kisdex/mpc-lib/crypto/commitments"
+	"github.com/kisdex/mpc-lib/crypto/dlnproof"
+	"github.com/kisdex/mpc-lib/crypto/facproof"
+	"github.com/kisdex/mpc-lib/crypto/modproof"
+	"github.com/kisdex/mpc-lib/crypto/paillier"
+	"github.com/kisdex/mpc-lib/crypto/vss"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 // These messages were generated from Protocol Buffers definitions into ecdsa-resharing.pb.go

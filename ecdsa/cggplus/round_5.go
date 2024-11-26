@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"sync"
 
-	"mpc/common"
-	"mpc/crypto/zkproofs"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto/zkproofs"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 func (round *round5) Start() *tss.Error {

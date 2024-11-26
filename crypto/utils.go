@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"mpc/common"
+	"github.com/kisdex/mpc-lib/common"
 )
 
 func GenerateNTildei(safePrimes [2]*big.Int) (NTildei, h1i, h2i *big.Int, err error) {

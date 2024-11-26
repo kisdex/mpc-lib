@@ -8,10 +8,10 @@ package signing
 
 import (
 	"fmt"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/test"
+	"github.com/kisdex/mpc-lib/tss"
 	"math/big"
-	"mpc/common"
-	"mpc/test"
-	"mpc/tss"
 	"sync/atomic"
 	"testing"
 

@@ -9,12 +9,12 @@ package resharing
 import (
 	"errors"
 	"fmt"
-	"mpc/crypto"
-	"mpc/crypto/commitments"
-	"mpc/crypto/vss"
-	"mpc/eddsa/keygen"
-	"mpc/eddsa/signing"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/crypto"
+	"github.com/kisdex/mpc-lib/crypto/commitments"
+	"github.com/kisdex/mpc-lib/crypto/vss"
+	"github.com/kisdex/mpc-lib/eddsa/keygen"
+	"github.com/kisdex/mpc-lib/eddsa/signing"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 // round 1 represents round 1 of the keygen part of the EDDSA TSS spec

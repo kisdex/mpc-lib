@@ -10,10 +10,10 @@ import (
 	"errors"
 	"math/big"
 
-	"mpc/common"
-	"mpc/crypto"
-	"mpc/ecdsa/keygen"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto"
+	"github.com/kisdex/mpc-lib/ecdsa/keygen"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 const (

@@ -11,11 +11,11 @@ import (
 	"errors"
 	"math/big"
 
-	"mpc/crypto/modproof"
+	"github.com/kisdex/mpc-lib/crypto/modproof"
 
-	"mpc/crypto/dlnproof"
-	"mpc/ecdsa/keygen"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/crypto/dlnproof"
+	"github.com/kisdex/mpc-lib/ecdsa/keygen"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 var (

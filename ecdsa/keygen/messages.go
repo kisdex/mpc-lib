@@ -7,16 +7,16 @@
 package keygen
 
 import (
+	"github.com/kisdex/mpc-lib/crypto/facproof"
+	"github.com/kisdex/mpc-lib/crypto/modproof"
 	"math/big"
-	"mpc/crypto/facproof"
-	"mpc/crypto/modproof"
 
-	"mpc/common"
-	cmt "mpc/crypto/commitments"
-	"mpc/crypto/dlnproof"
-	"mpc/crypto/paillier"
-	"mpc/crypto/vss"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/common"
+	cmt "github.com/kisdex/mpc-lib/crypto/commitments"
+	"github.com/kisdex/mpc-lib/crypto/dlnproof"
+	"github.com/kisdex/mpc-lib/crypto/paillier"
+	"github.com/kisdex/mpc-lib/crypto/vss"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 // These messages were generated from Protocol Buffers definitions into ecdsa-keygen.pb.go

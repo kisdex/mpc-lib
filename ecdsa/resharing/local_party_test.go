@@ -20,13 +20,13 @@ import (
 	"github.com/ipfs/go-log"
 	"github.com/stretchr/testify/assert"
 
-	"mpc/common"
-	"mpc/crypto"
-	"mpc/ecdsa/keygen"
-	. "mpc/ecdsa/resharing"
-	"mpc/ecdsa/signing"
-	"mpc/test"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto"
+	"github.com/kisdex/mpc-lib/ecdsa/keygen"
+	. "github.com/kisdex/mpc-lib/ecdsa/resharing"
+	"github.com/kisdex/mpc-lib/ecdsa/signing"
+	"github.com/kisdex/mpc-lib/test"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 const (

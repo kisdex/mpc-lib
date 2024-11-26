@@ -7,10 +7,10 @@ import (
 	"crypto/elliptic"
 	"math/big"
 
-	"mpc/common"
-	"mpc/crypto"
-	"mpc/crypto/ckd"
-	"mpc/ecdsa/keygen"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto"
+	"github.com/kisdex/mpc-lib/crypto/ckd"
+	"github.com/kisdex/mpc-lib/ecdsa/keygen"
 
 	"github.com/btcsuite/btcd/chaincfg"
 )

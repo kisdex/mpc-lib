@@ -23,13 +23,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"mpc/common"
-	"mpc/crypto"
-	"mpc/crypto/accmta"
-	"mpc/crypto/paillier"
-	"mpc/crypto/zkproofs"
-	"mpc/ecdsa/keygen"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto"
+	"github.com/kisdex/mpc-lib/crypto/accmta"
+	"github.com/kisdex/mpc-lib/crypto/paillier"
+	"github.com/kisdex/mpc-lib/crypto/zkproofs"
+	"github.com/kisdex/mpc-lib/ecdsa/keygen"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 var (

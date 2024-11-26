@@ -7,9 +7,9 @@
 package keygen
 
 import (
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/tss"
 	"math/big"
-	"mpc/common"
-	"mpc/tss"
 )
 
 const (

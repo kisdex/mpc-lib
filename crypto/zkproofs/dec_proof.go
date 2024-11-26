@@ -27,8 +27,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"mpc/common"
-	"mpc/crypto/paillier"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto/paillier"
 )
 
 const (

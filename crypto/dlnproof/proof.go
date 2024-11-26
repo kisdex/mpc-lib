@@ -15,8 +15,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"mpc/common"
-	cmts "mpc/crypto/commitments"
+	"github.com/kisdex/mpc-lib/common"
+	cmts "github.com/kisdex/mpc-lib/crypto/commitments"
 )
 
 const Iterations = 128

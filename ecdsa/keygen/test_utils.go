@@ -18,8 +18,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"mpc/test"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/test"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 const (

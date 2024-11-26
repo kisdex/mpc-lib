@@ -36,9 +36,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"mpc/common"
-	"mpc/crypto"
-	"mpc/crypto/paillier"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto"
+	"github.com/kisdex/mpc-lib/crypto/paillier"
 )
 
 // Note: (z,u,v) are lowercase in aff-g from CGG21 Section 6.2 Figure 15.

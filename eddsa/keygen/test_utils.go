@@ -9,10 +9,10 @@ package keygen
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/kisdex/mpc-lib/test"
+	"github.com/kisdex/mpc-lib/tss"
 	"io/ioutil"
 	"math/rand"
-	"mpc/test"
-	"mpc/tss"
 	"path/filepath"
 	"runtime"
 	"sort"

@@ -15,11 +15,11 @@ import (
 	"errors"
 	"fmt"
 
-	"mpc/common"
-	"mpc/crypto/accmta"
-	"mpc/ecdsa/keygen"
-	"mpc/ecdsa/signing"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto/accmta"
+	"github.com/kisdex/mpc-lib/ecdsa/keygen"
+	"github.com/kisdex/mpc-lib/ecdsa/signing"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 func newRound1(params *tss.Parameters, key *keygen.LocalPartySaveData, data *common.SignatureData, temp *localTempData, out chan<- tss.Message, end chan<- common.SignatureData) tss.Round {

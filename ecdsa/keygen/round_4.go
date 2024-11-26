@@ -9,9 +9,9 @@ package keygen
 import (
 	"errors"
 
-	"mpc/common"
-	"mpc/crypto/paillier"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto/paillier"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 func (round *round4) Start() *tss.Error {

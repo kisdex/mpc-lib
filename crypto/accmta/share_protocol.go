@@ -22,10 +22,10 @@ import (
 	"math/big"
 	"sync"
 
-	"mpc/common"
-	"mpc/crypto"
-	"mpc/crypto/paillier"
-	"mpc/crypto/zkproofs"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto"
+	"github.com/kisdex/mpc-lib/crypto/paillier"
+	"github.com/kisdex/mpc-lib/crypto/zkproofs"
 )
 
 func AliceInit(

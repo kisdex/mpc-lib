@@ -16,10 +16,10 @@ import (
 	"errors"
 	"math/big"
 
-	"mpc/crypto"
-	"mpc/crypto/paillier"
-	"mpc/crypto/zkproofs"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/crypto"
+	"github.com/kisdex/mpc-lib/crypto/paillier"
+	"github.com/kisdex/mpc-lib/crypto/zkproofs"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 type (

@@ -12,7 +12,7 @@ package commitments
 import (
 	"math/big"
 
-	"mpc/common"
+	"github.com/kisdex/mpc-lib/common"
 )
 
 const (

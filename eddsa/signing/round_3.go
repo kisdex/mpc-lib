@@ -9,11 +9,11 @@ package signing
 import (
 	"crypto/sha512"
 	"errors"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto"
+	"github.com/kisdex/mpc-lib/crypto/commitments"
+	"github.com/kisdex/mpc-lib/tss"
 	"math/big"
-	"mpc/common"
-	"mpc/crypto"
-	"mpc/crypto/commitments"
-	"mpc/tss"
 
 	"github.com/agl/ed25519/edwards25519"
 )

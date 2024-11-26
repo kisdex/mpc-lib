@@ -12,8 +12,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"mpc/common"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 func (round *finalization) Start() *tss.Error {

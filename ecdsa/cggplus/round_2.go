@@ -20,10 +20,10 @@ import (
 	"errors"
 	"sync"
 
-	"mpc/crypto"
-	"mpc/crypto/accmta"
-	"mpc/crypto/zkproofs"
-	"mpc/tss"
+	"github.com/kisdex/mpc-lib/crypto"
+	"github.com/kisdex/mpc-lib/crypto/accmta"
+	"github.com/kisdex/mpc-lib/crypto/zkproofs"
+	"github.com/kisdex/mpc-lib/tss"
 )
 
 func (round *round2) Start() *tss.Error {

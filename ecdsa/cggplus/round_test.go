@@ -17,7 +17,7 @@
 package cggplus
 
 import (
-	//	"mpc/tss"
+	//	"github.com/kisdex/mpc-lib/tss"
 	//	"sync"
 	"testing"
 )

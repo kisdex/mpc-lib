@@ -32,8 +32,8 @@ import (
 
 	"github.com/otiai10/primes"
 
-	"mpc/common"
-	crypto2 "mpc/crypto"
+	"github.com/kisdex/mpc-lib/common"
+	crypto2 "github.com/kisdex/mpc-lib/crypto"
 )
 
 const (

@@ -9,11 +9,11 @@ package signing
 import (
 	"errors"
 	"fmt"
+	"github.com/kisdex/mpc-lib/common"
+	"github.com/kisdex/mpc-lib/crypto"
+	"github.com/kisdex/mpc-lib/crypto/commitments"
+	"github.com/kisdex/mpc-lib/tss"
 	"math/big"
-	"mpc/common"
-	"mpc/crypto"
-	"mpc/crypto/commitments"
-	"mpc/tss"
 )
 
 // round 1 represents round 1 of the signing part of the EDDSA TSS spec

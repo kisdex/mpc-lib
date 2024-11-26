@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"mpc/common"
+	"github.com/kisdex/mpc-lib/common"
 )
 
 const (
